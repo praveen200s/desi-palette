@@ -18,7 +18,7 @@ function setup() {
   allPalette.renderList();
   
   //for visualizatin section
-  var canvas = createCanvas(700, 400);
+  var canvas = createCanvas(windowWidth, 400);
   canvas.parent('dataviz');
   colorMode(RGB,255);
   background(0, 0, 0);

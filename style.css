@@ -1,0 +1,36 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+    font-variant: unicase;
+    font-family: monospace;
+    font-size: 30px;
+    -webkit-animation: randomFont 15s infinite;
+     animation: randomFont 15s infinite;
+}
+@keyframes  randomFont {
+    15% { color: red; } 
+    30% { color: yellow; } 
+    45% { color: green; } 
+    60% { color: blue; }
+    75% { color: white; }  
+}
+
+
+.swatch {
+    display: block;
+    margin: 5px 0;
+}
+
+.swatchcolor{
+    display: inline-block;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+}
